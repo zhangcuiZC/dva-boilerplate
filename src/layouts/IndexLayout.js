@@ -3,7 +3,7 @@ import { Switch, Route, Link, Redirect } from "dva/router";
 import dynamic from "dva/dynamic";
 import app from "../index.js";
 import styles from "./IndexLayout.less";
-import indexRoutes from "../configs/routes/index.js";
+import { indexRoutes } from "../configs/routes.js";
 
 export default function IndexLayout() {
   return (

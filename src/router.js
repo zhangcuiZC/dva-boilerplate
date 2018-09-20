@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch, Router } from "dva/router";
 import dynamic from "dva/dynamic";
-import baseRoutes from "./configs/routes/base";
+import { baseRoutes } from "./configs/routes.js";
 
 function RouterConfig({ history, app }) {
   return (

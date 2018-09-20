@@ -1,4 +1,4 @@
-import serviceCreator from "../../utils/serviceCreator";
+import serviceCreator from "../utils/serviceCreator";
 
 // api config here
 const apiList = [{ name: "getList", url: "/list", method: "get" }];
