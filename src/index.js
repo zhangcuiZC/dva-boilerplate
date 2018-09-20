@@ -1,4 +1,5 @@
 import dva from "dva";
+import FastClick from "fastclick";
 import "@babel/polyfill";
 import createHistory from "history/createBrowserHistory";
 import "./index.css";
@@ -17,5 +18,7 @@ app.router(require("./router").default);
 
 // 5. Start
 app.start("#root");
+
+FastClick.attach(document.body);
 
 export default app;

@@ -11,6 +11,4 @@ function IndexPage({ name }) {
   );
 }
 
-IndexPage.propTypes = {};
-console.log(connect(({ example }) => ({ ...example })));
 export default connect(({ example }) => ({ ...example }))(IndexPage);
